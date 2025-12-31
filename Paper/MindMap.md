@@ -13,9 +13,9 @@ The brilliance of UniMRSeg lies in its core strategy: **Hierarchical Self-Superv
 To understand how it works, we'll walk through its educational journey, stage by stage:
 
 > **The Three-Stage Journey:**
-> 1. ** Stage 1:** Multi-granular Modality Reconstruction
-> 2. ** Stage 2:** Modality-invariant Contrastive Learning
-> 3. ** Stage 3:** Incomplete Modality Adaptive Fine-tuning
+> 1. **Stage 1:** Multi-granular Modality Reconstruction
+> 2. **Stage 2:** Modality-invariant Contrastive Learning
+> 3. **Stage 3:** Incomplete Modality Adaptive Fine-tuning
 
 ---
 
@@ -45,7 +45,7 @@ The model gains a **robust understanding of anatomical structure and inter-modal
 ###  Goal
 To teach the model to create a **similar internal representation** of an object (e.g., a tumor) **regardless of which scan type it appears in**. It learns **"modality-invariant" features**—the essence of the object, not the superficial "style" of the scan.
 
-### 🔧 How It Learns: Contrastive Learning with Segmentation Guidance
+### How It Learns: Contrastive Learning with Segmentation Guidance
 The model learns by comparing pairs of feature representations.
 
 | Pair Type | Description | Learning Objective |
@@ -58,7 +58,7 @@ The model learns by comparing pairs of feature representations.
 ###  So What? (The Outcome)
 The model learns to **implicitly compensate for feature biases** caused by missing scans. It focuses on the **"substance"** (the tumor) rather than the **"style"** (the modality), building a robust, core understanding of the target anatomy.
 
-**➡️ Next:** With a robust core understanding, the model undergoes final refinement for peak accuracy.
+**Next:** With a robust core understanding, the model undergoes final refinement for peak accuracy.
 
 ---
 
