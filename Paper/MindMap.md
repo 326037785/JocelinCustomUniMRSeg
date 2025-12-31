@@ -36,7 +36,7 @@ The model undergoes exercises that disrupt data at multiple scales (global & loc
 ###  So What? (The Outcome)
 The model gains a **robust understanding of anatomical structure and inter-modality relationships**. Like a reader inferring missing pages from context, it can now generate meaningful representations for any missing modality.
 
-**➡️ Next:** With the ability to guess what's missing, the model now learns to focus on the *most important content*.
+**Next:** With the ability to guess what's missing, the model now learns to focus on the *most important content*.
 
 ---
 
