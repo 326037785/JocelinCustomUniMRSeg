@@ -1,4 +1,3 @@
-```markdown
 # Understanding UniMRSeg: A Step-by-Step Guide to its Three-Stage Learning Framework
 
 ## Introduction: The Challenge of Missing Puzzle Pieces in Medical Imaging
